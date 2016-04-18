@@ -14,6 +14,7 @@ T sort(T arry[], int Num) {
 			}
 		}
 	}
+	return 0;
 }
 
 int main() {
@@ -29,6 +30,7 @@ int main() {
 	cout << "\n characters Sorted Order output: ";
 	for (int i = 0; i < 5; i++) {
 		cout << b[i] << " ";
+	}
 	
 	sort(c, 4);
 	cout << "\n floats Sorted Order output: ";
